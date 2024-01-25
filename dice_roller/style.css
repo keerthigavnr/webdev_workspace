@@ -1,0 +1,44 @@
+h1 {
+  text-align: center;
+  color: blueviolet;
+}
+.input-div {
+  text-align: center;
+  padding: 30px;
+  font-size: large;
+}
+.input-div input {
+  text-align: center;
+  font-size: large;
+  color: blueviolet;
+  padding: 5px;
+  border: 2px solid rgb(46, 43, 49);
+  border-radius: 5px;
+  width: 5%;
+}
+#btn {
+  text-align: center;
+  margin: 50px;
+  padding: 15px;
+  font-size: larger;
+  border-radius: 5px;
+  color: bisque;
+  border: 2px solid rgb(52, 9, 95);
+
+  background-color: blueviolet;
+}
+#btn:hover {
+  background-color: rgb(10, 10, 92);
+}
+.dice-div {
+  text-align: center;
+}
+#diceResult {
+  font-size: large;
+  margin: 20px;
+}
+#diceImages img {
+  width: 30px;
+  height: 30px;
+  margin: 10px;
+}

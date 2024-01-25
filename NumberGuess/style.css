@@ -1,0 +1,69 @@
+/* h1 {
+  text-align: center;
+  color: blueviolet;
+}
+
+#myLabel {
+  font-size: 150px;
+  font-family: helvetica;
+  display: block;
+  text-align: center;
+}
+#btn-container {
+  text-align: center;
+}
+.buttons {
+  padding: 10px;
+  margin: 20px;
+  width: 100px;
+  border: 2px solid #797474;
+  border-radius: 5px;
+  font-size: large;
+  font-family: sans-serif;
+  background-color: lightpink;
+  color: rgb(73, 71, 71);
+  cursor: pointer;
+  transition: background-color 0.25s;
+}
+.buttons:hover {
+  background-color: palevioletred;
+} */
+h1 {
+  text-align: center;
+  color: blueviolet;
+}
+h3 {
+  text-align: center;
+}
+p {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 25px;
+  color: rgb(101, 26, 172);
+}
+.input-class {
+  text-align: center;
+  margin-top: 50px;
+  font-size: large;
+}
+.input-class input {
+  border: 2px solid black;
+  border-radius: 4px;
+}
+#buttondiv {
+  text-align: center;
+}
+#submitbtn {
+  padding: 5px;
+  width: 150px;
+  border: 2px solid brown;
+  border-radius: 5px;
+  background-color: darksalmon;
+  font-size: large;
+}
+#result {
+  text-align: center;
+  font-size: larger;
+  margin-top: 30px;
+  font-weight: bolder;
+}

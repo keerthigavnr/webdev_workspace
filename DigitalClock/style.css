@@ -1,0 +1,27 @@
+* {
+  background-color: rgb(189, 165, 212);
+}
+#clock-container {
+  margin: 25%;
+  height: 100px;
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #dfd2d2;
+  border: 2px groove rgb(68, 68, 138);
+  border-radius: 5px;
+}
+#clock {
+  background-color: #dfd2d2;
+  font-size: 50px;
+  font-family: monospace;
+  font-weight: bold;
+}
+h1 {
+  text-align: center;
+  margin: 50px;
+  font-size: 50px;
+  padding-left: 150px;
+  color: rgb(48, 42, 54);
+}
