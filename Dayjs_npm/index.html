@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="node_modules/dayjs/dayjs.min.js"></script>
+    <script src="node_modules/dayjs/plugin/utc.js"></script>
+    <script src="node_modules/dayjs/plugin/timezone.js"></script>
+    <script src="node_modules/micromodal/dist/micromodal.js"></script>
+    <!-- <link rel="stylesheet" href="style.css" /> -->
+    <script type="module" defer src="bundle.js"></script>
+    <script
+      type="module"
+      src="https://www.googletagmanager.com/gtag/js?id=UA-49604576-5"
+    ></script>
+    <script type="module">
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+      gtag("config", "UA-49604576-5");
+    </script>
+  </head>
+  <body>
+    <button data-micromodal-trigger="modal-1">Open Modal</button>
+    <div class="modal micromodal-slide" id="modal-1">
+      <div class="modal__overlay" tabindex="-1" data-micromodal-close>
+        <div class="modal__container" role="dialog" aria-modal="true">
+          <header class="modal__header">
+            <h2 class="modal__title">Modal Title</h2>
+            <button
+              class="modal__close"
+              aria-label="Close modal"
+              data-micromodal-close
+            ></button>
+          </header>
+          <main class="modal__content">
+            <p>This is a simple modal content</p>
+          </main>
+          <footer class="modal__footer">
+            <button class="modal__btn" data-micromodal-close>Close</button>
+          </footer>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div id="timezone-div" class="box"></div>
+      <div id="time-div" class="box"></div>
+      <div id="date-div" class="box"></div>
+    </div>
+  </body>
+</html>

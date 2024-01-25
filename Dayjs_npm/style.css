@@ -1,0 +1,29 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  display: block;
+  text-align: center;
+  padding: 100px;
+  border: 1px solid #612323;
+  border-radius: 8px;
+  background-color: #afa2a2;
+
+  font-size: 3rem;
+}
+.box {
+  padding: 10px;
+}
+#timezone-div,
+#date-div {
+  color: rgb(51, 54, 54);
+}
+#time-div {
+  font-size: 5rem;
+  font-weight: bold;
+}
