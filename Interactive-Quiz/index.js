@@ -92,8 +92,7 @@ function startQuiz() {
   startButton.style.display = "none";
   questionContainer.style.display = "block";
   buttonContainer.style.display = "flex";
-  document.body.style.backgroundColor = "cyan"; // Change background color here
-
+  document.body.style.backgroundColor = "cyan";
   displayQuestion(questions[index]);
   updateButtonVisibility();
 }
@@ -205,6 +204,4 @@ function endQuiz() {
   congratsElement.textContent = `Congratulations!`;
   congratsElement.classList.add("congrats-message");
   questionContainer.appendChild(congratsElement);
-
-  // You can add more actions here, such as additional animations, sounds, etc.
 }
