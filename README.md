@@ -17,7 +17,7 @@ To get a local copy up and running, follow these simple steps.
 2. Open the index.html file in your web browser to view the project.
 
 ## Live Demo
-You can view the live demo of the project [here](https://664b7f4292f790f3fb88a768--resonant-daifuku-5861f0.netlify.app/).
+You can view the live demo of the project [here](https://keerthigaamazonclone.netlify.app/).
 
 ## Screenshots
 ![Amazon Clone Screenshot](amazon_clone/amazoncloness1.png)
