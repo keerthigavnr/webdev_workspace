@@ -6,7 +6,8 @@ This project is a clone of the Amazon website built using HTML and CSS. The prim
 You can view the live demo of the project [here](https://664b7f4292f790f3fb88a768--resonant-daifuku-5861f0.netlify.app/).
 
 ## Screenshot
-![Amazon Clone Screenshot](path-to-your-screenshot)
+![Amazon Clone Screenshot](amazon_clone/amazoncloness1.png)
+![Amazon Clone Screenshot](amazon_clone/amazoncloness2.png)
 
 ## TechStack
 - HTML
